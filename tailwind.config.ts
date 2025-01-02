@@ -14,6 +14,9 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-urbanist)", ...fontFamily.sans],
+        serif: ["var(--font-blackpast)", ...fontFamily.serif],
+        display: ["var(--font-oldenglish)", ...fontFamily.serif],
+        body: ["var(--font-darkcastle)", ...fontFamily.serif],
       },
       colors: {
         background: "hsl(var(--background))",

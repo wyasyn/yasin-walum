@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 import { ThemeProvider } from "@/components/theme-provider";
 
 const urbanist = Urbanist({
@@ -8,10 +9,26 @@ const urbanist = Urbanist({
   subsets: ["latin"],
 });
 
+const blackPast = localFont({
+  src: "../assets/fonts/blackpast/blackpast-blackpast-400.ttf",
+  variable: "--font-blackpast",
+  weight: "400",
+});
+
+const oldEnglish = localFont({
+  src: "../assets/fonts/oldEnglish/OldeEnglish.ttf",
+  variable: "--font-oldenglish",
+});
+
+const darkCastle = localFont({
+  src: "../assets/fonts/darkCastle/Darkcastle_PERSONAL_USE_ONLY.otf",
+  variable: "--font-darkcastle",
+});
+
 export const metadata: Metadata = {
   title: {
     template:
-      "%s | Yasin Walum | Software Developer, Machine Learning & Data Science Specialist",
+      "%s - Yasin Walum | Software Developer, Machine Learning & Data Science Specialist",
     default:
       "Yasin Walum | Software Developer, Machine Learning & Data Science Specialist",
   },
@@ -43,7 +60,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${urbanist.variable} antialiased`}>
+      <body
+        className={`${urbanist.variable} ${blackPast.variable} ${oldEnglish.variable} ${darkCastle.variable} antialiased`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
