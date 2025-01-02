@@ -50,19 +50,19 @@ To run this project locally:
 2. Navigate to the project directory:
 
    ```bash
-   cd portfolio-website
+   cd yasin-walum
    ```
 
 3. Install dependencies:
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 4. Start the development server:
 
    ```bash
-   npm run dev
+   pnpm dev
    ```
 
 5. Open your browser and go to:
