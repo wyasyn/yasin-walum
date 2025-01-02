@@ -3,19 +3,45 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 0 0% 100%;
+  --foreground: 220 10% 23%;
+  --heading: 224 71% 4%;
+  --muted: 210 11% 15%;
+  --btn: 216 12% 92%;
+  --secondary: 240 8% 97%;
+  --btn-secondary: 224 71% 4%;
+  --nav-background: 233 100% 17%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.dark {
+  --background: 260 9% 7%;
+  --foreground: 212 14% 62%;
+  --heading: 0 0% 98%;
+  --muted: 223 3% 56%;
+  --btn: 260 9% 7%;
+  --secondary: 260 5% 11%;
+  --btn-secondary: 222 5% 36%;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.container {
+  @apply mx-auto px-1;
+}
+
+@keyframes pulse-gradient {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.animate-pulse-gradient {
+  animation: pulse-gradient 2s linear infinite;
 }

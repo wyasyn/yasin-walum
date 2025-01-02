@@ -1,6 +1,10 @@
+import { fontFamily } from "tailwindcss/defaultTheme";
 import type { Config } from "tailwindcss";
+import animate from "tailwindcss-animate";
+import typography from "@tailwindcss/typography";
 
 export default {
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,11 +12,20 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-urbanist)", ...fontFamily.sans],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        heading: "hsl(var(--heading))",
+        muted: "hsl(var(--muted))",
+        btn: "hsl(var(--btn))",
+        secondary: "hsl(var(--secondary))",
+        "btn-secondary": "hsl(var(--btn-secondary))",
+        "nav-background": "hsl(var(--nav-background))",
       },
     },
   },
-  plugins: [],
+  plugins: [animate, typography],
 } satisfies Config;
