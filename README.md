@@ -44,7 +44,7 @@ To run this project locally:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/yasin-walum.git
+   git clone https://github.com/wyasyn/yasin-walum.git
    ```
 
 2. Navigate to the project directory:
