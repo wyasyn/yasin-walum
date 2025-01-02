@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+Welcome to the repository for my personal portfolio website! This project showcases my skills, projects, and experiences as a computer scientist and software developer.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This portfolio website serves as a central hub for displaying my professional profile, technical skills, and completed projects. It highlights my expertise in:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Data Science
+- Full-Stack Web Development
+- Cybersecurity
+- Mobile App Development
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- Responsive design for optimal viewing on all devices
+- Interactive project showcase with detailed descriptions and live links
+- Contact form for easy communication
+- Blog section for sharing technical insights (optional)
+- Smooth navigation with modern UI/UX practices
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The website is built using the following technologies:
 
-## Deploy on Vercel
+- **Frontend:** React, Next.js, TailwindCSS
+- **Deployment:** Vercel
+- **Other Tools:** Git, CI/CD pipelines
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Setup and Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To run this project locally:
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/yasin-walum.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd portfolio-website
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and go to:
+   ```
+   http://localhost:3000
+   ```
+
+## Usage
+
+This repository can be used as a reference or template for building your own portfolio website. Feel free to customize it to suit your needs.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this project as per the license terms.
+
+## Contact
+
+For any questions or collaborations, feel free to reach out:
+
+- [Email Address](mailto:ywalum@gmail.com)
+- [Linkedin profile](https://linkedin.com/in/yasin-walum)
+- [Github](https://github.com/wyasyn)
+
+---
+
+Thank you for visiting my portfolio repository! If you find this project helpful, don't forget to star ⭐ the repository.
