@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 
 export default function Navbar() {
   return (
-    <header className="py-3">
+    <header className="py-3 z-40 relative">
       <div className="container flex justify-between items-center">
         <Link href="/" className="text-heading font-display text-4xl flex">
           .<span>A</span>sin
