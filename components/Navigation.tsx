@@ -106,7 +106,7 @@ export default function Navigation() {
         {links.map((link) => (
           <li key={link.href}>
             <Link
-              className={`hover:text-white/60 py-2 relative duration-300 ${
+              className={`hover:text-foreground py-2 relative duration-300 ${
                 link.href === pathname ? "text-foreground" : "text-heading"
               } `}
               href={link.href}
