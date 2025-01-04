@@ -86,3 +86,25 @@
   mask-composite: exclude;
   -webkit-mask-composite: xor;
 }
+
+@keyframes circle-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(50px, -30px);
+  }
+  50% {
+    transform: translate(-30px, 60px);
+  }
+  75% {
+    transform: translate(-50px, -20px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.animate-circle-animation {
+  animation: circle-animation 10s linear infinite;
+}

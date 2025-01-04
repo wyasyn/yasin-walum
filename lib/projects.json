@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "title": "AI-Powered Personal Assistant",
+      "description": "Develop an AI-powered personal assistant that integrates natural language processing (NLP) and speech recognition to perform tasks such as scheduling, reminders, and information retrieval. Enhance it with a web interface for task management and voice command capabilities.",
+      "features": [
+        "Speech Recognition: Convert spoken language into text commands using tools like Google Speech-to-Text or Whisper.",
+        "Task Scheduling: Set reminders, create events, and notify users via push notifications or emails.",
+        "Web Dashboard: A React/Next.js-based interface for viewing and managing tasks.",
+        "API Integration: Fetch real-time data like weather, news, or stock prices using external APIs."
+      ],
+      "technologies": {
+        "frontend": "React, Next.js, Material UI",
+        "backend": "Node.js or FastAPI",
+        "ai": "OpenAI API for NLP",
+        "database": "MongoDB or PostgreSQL",
+        "deployment": "Docker and AWS"
+      },
+      "image": "https://images.unsplash.com/photo-1712002641088-9d76f9080889?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGFpfGVufDB8fDB8fHww"
+    },
+    {
+      "title": "Secure E-Commerce Platform",
+      "description": "Create a full-stack secure e-commerce platform with modern design, payment gateway integration, and robust authentication. Focus on user experience and cybersecurity best practices.",
+      "features": [
+        "User Authentication: Role-based access control with password hashing and 2FA.",
+        "Product Management: Admin panel for adding, updating, and deleting products.",
+        "Payment Integration: Stripe or PayPal for secure transactions.",
+        "Real-Time Analytics: Track user activity, sales, and inventory.",
+        "Secure Development: Implement OWASP guidelines to prevent vulnerabilities."
+      ],
+      "technologies": {
+        "frontend": "React, TailwindCSS",
+        "backend": "Django or Laravel",
+        "database": "MySQL or PostgreSQL",
+        "deployment": "Docker and Vercel"
+      },
+      "image": "https://images.unsplash.com/photo-1688561808434-886a6dd97b8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fHww"
+    },
+    {
+      "title": "Mobile Health Tracker",
+      "description": "Develop a cross-platform mobile application to help users track health metrics like steps, heart rate, and sleep patterns. Integrate with wearable devices and provide actionable insights.",
+      "features": [
+        "Data Sync: Connect with devices via Bluetooth or APIs.",
+        "User Dashboard: Display metrics and trends over time using charts.",
+        "Health Tips: AI-powered suggestions for improving health based on user data.",
+        "Push Notifications: Reminders for hydration, exercise, and medication."
+      ],
+      "technologies": {
+        "framework": "Flutter",
+        "backend": "Flask or FastAPI",
+        "database": "Firebase",
+        "deployment": "Google Play Store and Apple App Store"
+      },
+      "image": "https://plus.unsplash.com/premium_photo-1661764321097-9fae7c838806?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW9iaWxlJTIwaGVhbHRoJTIwdHJhY2tlcnxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "title": "Cybersecurity Vulnerability Scanner",
+      "description": "Build a tool to identify security vulnerabilities in web applications by scanning for common issues such as SQL injection, XSS, and insecure headers. Provide a detailed report and mitigation suggestions.",
+      "features": [
+        "Scanning Capabilities: Detect OWASP Top 10 vulnerabilities.",
+        "Custom Rules: Allow users to define scanning rules for specific requirements.",
+        "Report Generation: Provide detailed PDF reports with findings and recommendations.",
+        "Dashboard: Web interface for scan management and results visualization."
+      ],
+      "technologies": {
+        "frontend": "React, Material UI",
+        "backend": "Python with Flask",
+        "securityTools": "OWASP ZAP API, custom Python scripts",
+        "deployment": "Docker and Kubernetes"
+      },
+      "image": "https://images.unsplash.com/photo-1590494165264-1ebe3602eb80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D"
+    }
+  ]
+}

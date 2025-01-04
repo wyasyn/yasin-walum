@@ -10,7 +10,7 @@ const words = [
   "cybersecurity",
   "full-stack",
   "cloud tech",
-  "modal train",
+  "ML",
 ];
 
 export default function HeroSection() {
