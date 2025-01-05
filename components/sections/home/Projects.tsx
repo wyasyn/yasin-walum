@@ -1,4 +1,4 @@
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../../ProjectCard";
 import data from "@/lib/projects.json";
 
 export default function Projects() {
@@ -8,8 +8,8 @@ export default function Projects() {
         <ProjectCard
           key={project.title}
           title={project.title}
-          description={project.description}
           image={project.image}
+          tags={project.tags}
         />
       ))}
     </div>

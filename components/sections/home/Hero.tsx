@@ -12,7 +12,7 @@ export default function Hero() {
           Hello! I&apos;m <span className="font-medium">Yasin</span>
         </p>
         <HeroTitle />
-        <div className="flex flex-col gap-12 sm:flex-row py-[2rem] sm:justify-between">
+        <div className="flex flex-col gap-12 sm:flex-row md:py-[2rem] sm:justify-between ">
           <div>
             <Button text="Let's Talk!" Icon={ArrowRight} url="/contact" />
           </div>

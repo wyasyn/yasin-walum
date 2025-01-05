@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import Projects from "@/components/Projects";
+import Projects from "@/components/sections/home/Projects";
 import SubHeading from "@/components/SubHeading";
 import { ArrowRight } from "lucide-react";
 

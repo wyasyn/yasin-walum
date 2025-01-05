@@ -2,6 +2,7 @@
   "projects": [
     {
       "title": "AI-Powered Personal Assistant",
+      "tags": ["AI", "ML", "website"],
       "description": "Develop an AI-powered personal assistant that integrates natural language processing (NLP) and speech recognition to perform tasks such as scheduling, reminders, and information retrieval. Enhance it with a web interface for task management and voice command capabilities.",
       "features": [
         "Speech Recognition: Convert spoken language into text commands using tools like Google Speech-to-Text or Whisper.",
@@ -20,6 +21,7 @@
     },
     {
       "title": "Secure E-Commerce Platform",
+      "tags": ["e-commerce", "security", "website"],
       "description": "Create a full-stack secure e-commerce platform with modern design, payment gateway integration, and robust authentication. Focus on user experience and cybersecurity best practices.",
       "features": [
         "User Authentication: Role-based access control with password hashing and 2FA.",
@@ -38,6 +40,8 @@
     },
     {
       "title": "Mobile Health Tracker",
+      "tags": ["health tracking", "mobile app"],
+
       "description": "Develop a cross-platform mobile application to help users track health metrics like steps, heart rate, and sleep patterns. Integrate with wearable devices and provide actionable insights.",
       "features": [
         "Data Sync: Connect with devices via Bluetooth or APIs.",
@@ -55,6 +59,7 @@
     },
     {
       "title": "Cybersecurity Vulnerability Scanner",
+      "tags": ["security scanner", "tool"],
       "description": "Build a tool to identify security vulnerabilities in web applications by scanning for common issues such as SQL injection, XSS, and insecure headers. Provide a detailed report and mitigation suggestions.",
       "features": [
         "Scanning Capabilities: Detect OWASP Top 10 vulnerabilities.",

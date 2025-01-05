@@ -27,6 +27,7 @@ export default {
         secondary: "hsl(var(--secondary))",
         "btn-secondary": "hsl(var(--btn-secondary))",
         "nav-background": "hsl(var(--nav-background))",
+        card: "hsl(var(--card))",
       },
       animation: {
         move: "move 5s linear infinite",

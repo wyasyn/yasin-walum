@@ -86,7 +86,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    url: "https://walum.com",
+    url: "https://ywalum.com",
     siteName: "Yasin Walum",
     title:
       "Yasin Walum | Software Developer, Machine Learning & Data Science Specialist",
